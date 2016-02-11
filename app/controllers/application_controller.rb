@@ -10,4 +10,9 @@ class ApplicationController < ActionController::Base
   def goodbye
     render text: "bye"
   end
+  
+  def bye
+    render text: "Ogbeni which way"
+      end
+  
 end
